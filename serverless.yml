@@ -1,0 +1,9 @@
+name: demo
+
+demo: 
+  component: "@sls-next/serverless-component"
+  inputs:
+    runtime:
+      defaultLambda: "nodejs16.x"
+      apiLambda: "nodejs16.x"
+      imageLambda: "nodejs16.x
