@@ -64,7 +64,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
   
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.  
   
-    
+
+# To deploy on AWS using serverless
+https://www.serverless.com/plugins/serverless-nextjs-plugin
   
 Documentation - https://www.serverless.com/plugins/serverless-nextjs-plugin  
   
