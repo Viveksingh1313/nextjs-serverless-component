@@ -18,21 +18,23 @@ pnpm dev
 ```  
   
 Set your aws crendentials:  
+```bash    
 aws configure   
 AWS Access Key ID [*************xxxx]: <Your AWS Access Key ID>   
 AWS Secret Access Key [**************xxxx]:   
 <Your AWS Secret Access Key>   
 Default region name: [us-east-2]: us-east-2   
 Default output format [None]: json  
-  
+ ```   
   
   
 # To deploy on production : serverless  
+```bash  
 demo:   
     appUrl:         https://d14ez727nv5i3j.cloudfront.net  
     bucketName:     kcz5psg-8lw281y  
     distributionId: E12EMW8XEGS2910  
-  
+  ```  
 The above crendentials won't work for you, however when you run serverless command a similar key/value paire will be genaretd, and you can use appUrl as your host to check if you deployment works.  
   
   
