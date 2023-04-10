@@ -35,7 +35,8 @@ demo:
     bucketName:     kcz5psg-8lw281y  
     distributionId: E12EMW8XEGS2910  
   ```  
-The above crendentials won't work for you, however when you run serverless command a similar key/value paire will be genaretd, and you can use appUrl as your host to check if you deployment works.  
+The above crendentials won't work for you, however when you run serverless command a similar key/value pair  
+will be generated, and you can use appUrl as your host to check if you deployment works.  
   
   
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.  
